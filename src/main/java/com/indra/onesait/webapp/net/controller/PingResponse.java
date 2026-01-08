@@ -2,9 +2,9 @@ package com.indra.onesait.webapp.net.controller;
 
 public class PingResponse {
 
-    private String host;
-    private String status;
-    private String responseTime;
+    private final String host;
+    private final String status;
+    private final String responseTime;
 
     public PingResponse(String host, String status, String responseTime) {
         this.host = host;
